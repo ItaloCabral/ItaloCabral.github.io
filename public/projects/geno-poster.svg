@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0f172a"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <rect x="200" y="120" width="400" height="60" rx="8" fill="#0b0f17" stroke="#334155" stroke-width="1.5"/>
+  <rect x="280" y="210" width="240" height="48" rx="8" fill="#2563eb" opacity="0.85"/>
+  <text x="400" y="240" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="16" font-weight="600">geno.link/abc12</text>
+  <text x="400" y="320" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="18">Geno  Preview</text>
+</svg>

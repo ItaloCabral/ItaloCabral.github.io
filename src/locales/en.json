@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Italo Cabral — Full-Stack & AI Analyst",
+    "description": "Full-stack Software Engineer with 5+ years of experience. Specialist in AI agents, RAG pipelines, software architecture, and high-performance systems."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "talks": "Talks",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Italo Cabral",
+    "role": "Full-Stack Dev & AI Analyst",
+    "summary": "Software Engineer with 5+ years of full-stack development experience. Specialist in AI agents, RAG pipelines, and LLM integration in production products — from architecture to deployment — combining solid software engineering with intelligent, scalable solutions.",
+    "highlights": [
+      "AI Agents & RAG",
+      "Software Architecture",
+      "English C2"
+    ],
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch",
+    "downloadCv": "Download resume"
+  },
+  "about": {
+    "title": "About me",
+    "paragraphs": [
+      "Throughout my career at large multinational companies, I've built critical systems applying best practices and clean code principles, always focused on delivering results.",
+      "My AI experience goes beyond code: I design agent architectures, orchestrate flows with LangChain, apply prompt engineering, and translate business needs into intelligent solutions. I have strong analytical skills, data migration experience, and regularly mentor others with a collaborative, communicative profile."
+    ],
+    "skillsTitle": "Skills",
+    "skills": [
+      "TypeScript", "Python", "PHP", "Laravel", "React", "Next.js", "Node.js",
+      "HTML/CSS", "MySQL", "MongoDB", "PostgreSQL", "LangChain", "RAG",
+      "IBM Watson", "AI Agents", "Clean Architecture", "SOLID", "API Design",
+      "Data Migration", "Docker"
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "A track record across industries, with a growing focus on AI, measurable impact, and delivery quality.",
+    "highlightsTitle": "Key responsibilities in this role",
+    "items": [
+      {
+        "company": "AI Company · Innovation",
+        "role": "Software Engineer · AI Agents",
+        "period": "2024 — Present",
+        "description": "I develop and evolve artificial intelligence solutions including autonomous agents, RAG pipelines, high-performance backends, automated workflows, and databases. Responsible for turning AI use cases into scalable, secure, production-ready products.",
+        "highlights": [
+          "Defined AI agent architecture, stack selection (LLMs, vector stores, orchestrators), and technical standards for the team",
+          "Built intelligent agents and automated flows with LangChain, integrating APIs and eliminating manual steps",
+          "Designed and implemented API integrations that optimized workflows and reduced reliance on manual processes",
+          "Technical mentorship in best practices, code quality, and versioning; internal talks and conference representation on AI"
+        ],
+        "tech": ["Python", "TypeScript", "LangChain", "FastAPI", "MongoDB", "Docker", "RAG"]
+      },
+      {
+        "company": "Healthcare · Technology",
+        "role": "Senior Full-Stack Developer",
+        "period": "2023 — 2024",
+        "description": "Led refactoring and development of a critical healthcare system, focusing on scalability, reliability, and performance. Defined technical approaches, established development standards, and mentored multidisciplinary teams.",
+        "highlights": [
+          "Built automated TypeScript tool for malformed legacy data migration — timeline reduced from 3 months to 3–5 days",
+          "Applied concurrency and async processing for parallel table migration with guaranteed referential integrity",
+          "Created flexible mapping between old and new schemas, preserving historical data without information loss",
+          "Mentored junior and mid-level teams on SOLID, Clean Code, testing, and structured code reviews"
+        ],
+        "tech": ["TypeScript", "Node.js", "PostgreSQL", "React", "Docker"]
+      },
+      {
+        "company": "Technology · Financial Sector",
+        "role": "Mid-Level Full-Stack Developer",
+        "period": "2022 — 2023",
+        "description": "Responsible for evolving and maintaining a high-performance information query system. Built features that expanded system capacity, created layouts for complex data, and led complete internal API refactoring focused on maintainability and performance.",
+        "highlights": [
+          "Implemented PIX-integrated payment system, eliminating manual validation and reducing balance release from up to 2 days to instant",
+          "Automated billing flow, replacing error-prone manual processes with a reliable digital solution",
+          "Improved customer experience with real-time balance top-up and greater operational efficiency for support teams",
+          "Designed payment gateway integration ensuring security, traceability, and business rule compliance"
+        ],
+        "tech": ["TypeScript", "React", "Node.js", "PostgreSQL", "Redis"]
+      },
+      {
+        "company": "Consulting · Foreign Trade",
+        "role": "Full-Stack Developer",
+        "period": "2021 — 2022",
+        "description": "Developed features for a complex import/export operations management system. Performed proactive maintenance, optimized databases, and provided technical guidance for the team to adopt best practices.",
+        "highlights": [
+          "Built new features on a critical foreign trade system with a focus on stability",
+          "Performed proactive maintenance and bug fixes, ensuring incident prevention in production",
+          "Managed and optimized databases, creating efficient scripts for querying, analysis, and data visualization",
+          "Provided technical guidance for the team on best practices and new technologies"
+        ],
+        "tech": ["JavaScript", "React", "Node.js", "SQL Server", "MongoDB", "PHP", "Laravel"]
+      },
+      {
+        "company": "Startup · E-commerce",
+        "role": "Full-Stack Developer",
+        "period": "2020 — 2021",
+        "description": "Developed a complete e-commerce application from conception to production delivery. Integrated frontend and backend ensuring performance, responsiveness, and a fluid experience, with transparent checkout and integrated payments.",
+        "highlights": [
+          "Built end-to-end e-commerce application, from architecture design to production deployment",
+          "Integrated frontend and backend focused on performance, responsiveness, and a smooth purchase journey",
+          "Implemented transparent checkout with integrated payment system, improving conversion reliability",
+          "Delivered complete solution in production with monitoring and operational stability"
+        ],
+        "tech": ["JavaScript", "React", "Node.js", "MongoDB", "MySQL", "HTML/CSS", "Stripe"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Personal work showcasing my technical approach and creativity — with a strong emphasis on AI solutions.",
+    "viewCode": "View code",
+    "liveDemo": "Live demo",
+    "featured": "Featured",
+    "placeholder": "Coming soon",
+    "previewHint": "Hover to play preview",
+    "prev": "Previous project",
+    "next": "Next project",
+    "items": [
+      {
+        "name": "SynVault",
+        "tagline": "Intelligent synapses. Content in the vault.",
+        "description": "AI agent that merges the power of digital synapses — RAG connections linking questions to the right knowledge — with vault-grade security (MinIO), where custom content stays isolated and protected. Efficient, controlled, and highly customizable responses, with a full pipeline of embeddings, vector storage, and agent orchestration.",
+        "tech": ["Next.js", "TypeScript", "Python", "MongoDB", "LangChain", "Pydantic", "ChromaDB", "MinIO"],
+        "github": "https://github.com/ItaloCabral",
+        "demo": null,
+        "poster": "/projects/synvault-poster.svg",
+        "gif": "/projects/synvault.gif",
+        "featured": true
+      },
+      {
+        "name": "Geno",
+        "description": "Simple and efficient URL shortener with secure slug generation via cryptography, basic analytics, and RESTful API for integration.",
+        "tech": ["TypeScript", "MongoDB", "Crypto"],
+        "github": "https://github.com/ItaloCabral",
+        "demo": null,
+        "poster": "/projects/geno-poster.svg",
+        "gif": "/projects/geno.gif",
+        "featured": false
+      },
+      {
+        "name": "DevPulse",
+        "description": "API and service monitoring dashboard with real-time alerts, uptime history, and metrics visualization — placeholder for your next project.",
+        "tech": ["React", "TypeScript", "Node.js", "WebSockets"],
+        "github": null,
+        "demo": null,
+        "poster": "/projects/devpulse-poster.svg",
+        "gif": "/projects/devpulse.gif",
+        "featured": false,
+        "isPlaceholder": true
+      }
+    ]
+  },
+  "talks": {
+    "title": "Talks & Mentorship",
+    "subtitle": "Sharing knowledge on AI, software engineering, and career growth through talks, mentorship, and workshops.",
+    "topicsTitle": "Topics presented",
+    "topics": [
+      "Prompt Engineering",
+      "Assertive Communication",
+      "Personal Branding"
+    ],
+    "mentorship": {
+      "title": "Career Mentorship",
+      "description": "Personalized guidance for tech career starters — from first steps to interview preparation and market positioning.",
+      "cta": "Book mentorship"
+    },
+    "workshops": {
+      "title": "Talks & Workshops",
+      "description": "Corporate training and workshops on AI, intelligent agents, software engineering, best practices, and productivity for teams of all levels.",
+      "cta": "Request a talk"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Open to opportunities, collaborations, and conversations about technology and artificial intelligence.",
+    "email": "italo.bruno-dev@outlook.com",
+    "linkedin": "linkedin.com/in/italo-cabral",
+    "github": "github.com/ItaloCabral"
+  },
+  "footer": {
+    "built": "Built with React & TypeScript",
+    "rights": "All rights reserved."
+  }
+}

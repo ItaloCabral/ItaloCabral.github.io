@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Italo Cabral — Full-Stack & Analista de IA",
+    "description": "Engenheiro de Software full-stack com 5+ anos de experiência. Especialista em agentes de IA, pipelines RAG, arquitetura de software e sistemas de alta performance."
+  },
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "talks": "Palestras",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "name": "Italo Cabral",
+    "role": "Dev Full-Stack & Analista de IA",
+    "summary": "Engenheiro de Software com 5+ anos de experiência em desenvolvimento full-stack. Especialista em agentes de IA, pipelines RAG e integração de LLMs em produtos reais — da arquitetura ao deploy — combinando engenharia de software sólida com soluções inteligentes e escaláveis.",
+    "highlights": [
+      "Agentes de IA & RAG",
+      "Arquitetura de Software",
+      "Inglês C2"
+    ],
+    "ctaProjects": "Ver projetos",
+    "ctaContact": "Entrar em contato",
+    "downloadCv": "Baixar currículo"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "paragraphs": [
+      "Ao longo da trajetória em empresas grandes e multinacionais, desenvolvi sistemas críticos aplicando as melhores técnicas e boas práticas de programação, sempre com foco no resultado.",
+      "Minha experiência com IA vai além do código: projeto arquiteturas de agentes, orquestro fluxos com LangChain, aplico engenharia de prompt e traduzo necessidades de negócio em soluções inteligentes. Tenho forte capacidade analítica, vivência em migração de dados e presto mentorias regularmente, com perfil colaborativo e comunicativo."
+    ],
+    "skillsTitle": "Competências",
+    "skills": [
+      "TypeScript", "Python", "PHP", "Laravel", "React", "Next.js", "Node.js",
+      "HTML/CSS", "MySQL", "MongoDB", "PostgreSQL", "LangChain", "RAG",
+      "IBM Watson", "AI Agents", "Clean Architecture", "SOLID", "API Design",
+      "Data Migration", "Docker"
+    ]
+  },
+  "experience": {
+    "title": "Experiência",
+    "subtitle": "Trajetória em empresas de diversos setores, com foco crescente em IA, impacto mensurável e qualidade de entrega.",
+    "highlightsTitle": "Principais funções neste projeto",
+    "items": [
+      {
+        "company": "Empresa de IA · Inovação",
+        "role": "Engenheiro de Software · Agentes de IA",
+        "period": "2024 — Presente",
+        "description": "Atuo no desenvolvimento e evolução de soluções de inteligência artificial, incluindo agentes autônomos, pipelines RAG, back-ends de alta performance, fluxos automatizados e bancos de dados. Responsável por transformar casos de uso de IA em produtos escaláveis, seguros e prontos para produção.",
+        "highlights": [
+          "Definição de arquitetura de agentes de IA, seleção de stack (LLMs, vector stores, orquestradores) e padrões técnicos para a equipe",
+          "Desenvolvimento de agentes inteligentes e fluxos automatizados com LangChain, integrando APIs e eliminando etapas manuais",
+          "Projetei e implementei integrações via API que otimizaram workflows e reduziram dependência de processos manuais",
+          "Mentoria técnica em boas práticas, qualidade de código e versionamento; palestras internas e representação em conferências sobre IA"
+        ],
+        "tech": ["Python", "TypeScript", "LangChain", "FastAPI", "MongoDB", "Docker", "RAG", "IBM Watson"]
+      },
+      {
+        "company": "Empresa de Saúde · Tecnologia",
+        "role": "Desenvolvedor Full-Stack Sênior",
+        "period": "2023 — 2024",
+        "description": "Liderei a refatoração e o desenvolvimento de um sistema crítico do setor de saúde, com foco em escalabilidade, confiabilidade e performance. Defini abordagens técnicas, estabeleci padrões de desenvolvimento e mentorei equipes multidisciplinares.",
+        "highlights": [
+          "Desenvolvi ferramenta automatizada em TypeScript para migração de dados legados mal-formados — prazo reduzido de 3 meses para 3–5 dias",
+          "Apliquei concorrência e assincronicidade para migração paralela de tabelas, com integridade referencial garantida",
+          "Criei mapeamento flexível entre esquemas antigo e novo, preservando dados históricos sem perda de informação",
+          "Mentorei equipes júnior e pleno em SOLID, Clean Code, testes e revisões de código estruturadas"
+        ],
+        "tech": ["TypeScript", "Node.js", "PostgreSQL", "React", "Docker"]
+      },
+      {
+        "company": "Empresa de Tecnologia · Setor Financeiro",
+        "role": "Desenvolvedor Full-Stack Pleno",
+        "period": "2022 — 2023",
+        "description": "Responsável pela evolução e manutenção de um sistema de consulta de informações de alta performance. Desenvolvi funcionalidades que ampliaram a capacidade do sistema, criei layouts para dados complexos e liderei a refatoração completa da API interna com foco em manutenibilidade e desempenho.",
+        "highlights": [
+          "Implementei sistema de pagamentos integrado com PIX, eliminando validação manual e reduzindo liberação de saldo de até 2 dias para instantâneo",
+          "Automatizei o fluxo de faturamento, substituindo processo manual e sujeito a erros por solução digital confiável",
+          "Melhorei a experiência do cliente com recarga de saldo em tempo real e maior eficiência operacional do atendimento",
+          "Projetei integração com gateway de pagamentos garantindo segurança, rastreabilidade e conformidade com regras de negócio"
+        ],
+        "tech": ["TypeScript", "React", "Node.js", "PostgreSQL", "Redis"]
+      },
+      {
+        "company": "Consultoria · Comércio Exterior",
+        "role": "Desenvolvedor Full-Stack",
+        "period": "2021 — 2022",
+        "description": "Atuei no desenvolvimento de funcionalidades para um sistema complexo de gerenciamento de operações de importação e exportação. Realizei manutenção proativa, otimizei bancos de dados e orientei tecnicamente o time na adoção de melhores práticas.",
+        "highlights": [
+          "Desenvolvi novas funcionalidades em sistema crítico de comércio exterior com foco em estabilidade",
+          "Realizei manutenção proativa e correção de erros, garantindo prevenção de incidentes em produção",
+          "Gerenciei e otimizei bancos de dados, criando scripts eficientes para consulta, análise e visualização de dados",
+          "Orientei tecnicamente o time na adoção de melhores práticas e novas tecnologias"
+        ],
+        "tech": ["JavaScript", "React", "Node.js", "SQL Server", "MongoDB", "PHP", "Laravel"]
+      },
+      {
+        "company": "Startup · E-commerce",
+        "role": "Desenvolvedor Full-Stack",
+        "period": "2020 — 2021",
+        "description": "Desenvolvi uma aplicação e-commerce completa, da concepção à entrega em produção. Realizei integração entre frontend e backend assegurando performance, responsividade e experiência fluida, com checkout transparente e pagamento integrado.",
+        "highlights": [
+          "Construí aplicação e-commerce end-to-end, do design de arquitetura ao deploy em produção",
+          "Integrei frontend e backend com foco em performance, responsividade e jornada de compra fluida",
+          "Implementei checkout transparente com sistema de pagamento integrado, aumentando confiabilidade na conversão",
+          "Entreguei solução completa em ambiente de produção com monitoramento e estabilidade operacional"
+        ],
+        "tech": ["JavaScript", "React", "Node.js", "MongoDB", "MySQL", "HTML/CSS", "Stripe"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Trabalhos pessoais que demonstram minha abordagem técnica e criativa — com forte ênfase em soluções de IA.",
+    "viewCode": "Ver código",
+    "liveDemo": "Demo",
+    "featured": "Destaque",
+    "placeholder": "Em breve",
+    "previewHint": "Passe o mouse para ver o preview",
+    "prev": "Projeto anterior",
+    "next": "Próximo projeto",
+    "items": [
+      {
+        "name": "Sinapsis",
+        "tagline": "Sinapses inteligentes. Conteúdo em segurança.",
+        "description": "Agente de IA que une o poder das sinapses digitais — conexões RAG que ligam perguntas ao conhecimento certo — com a segurança de um cofre digital, onde conteúdos personalizados ficam isolados e protegidos, podendo ser compartilhados entre agentes, obtendo respostas eficientes, controladas e altamente customizáveis, com pipeline completo de embeddings, armazenamento vetorial e orquestração de agentes.",
+        "tech": ["Next.js", "TypeScript", "Python", "MongoDB", "LangChain", "Pydantic", "ChromaDB", "MinIO"],
+        "github": "https://github.com/ItaloCabral",
+        "demo": null,
+        "poster": "/projects/synvault-poster.svg",
+        "gif": "/projects/synvault.gif",
+        "featured": true
+      },
+      {
+        "name": "Geno URL Shortener",
+        "description": "Encurtador de URLs simples e eficiente, com geração segura de slugs via criptografia, analytics básicos e API RESTful para integração.",
+        "tech": ["TypeScript", "MongoDB", "Crypto"],
+        "github": "https://github.com/ItaloCabral",
+        "demo": null,
+        "poster": "/projects/geno-poster.svg",
+        "gif": "/projects/geno.gif",
+        "featured": false
+      },
+      {
+        "name": "DevPulse",
+        "description": "Dashboard de monitoramento de APIs e serviços com alertas em tempo real, histórico de uptime e visualização de métricas — placeholder para seu próximo projeto.",
+        "tech": ["React", "TypeScript", "Node.js", "WebSockets"],
+        "github": null,
+        "demo": null,
+        "poster": "/projects/devpulse-poster.svg",
+        "gif": "/projects/devpulse.gif",
+        "featured": false,
+        "isPlaceholder": true
+      }
+    ]
+  },
+  "talks": {
+    "title": "Palestras & Mentoria",
+    "subtitle": "Compartilho conhecimento sobre IA, engenharia de software e carreira por meio de talks, mentorias e workshops.",
+    "topicsTitle": "Temas apresentados",
+    "topics": [
+      "Engenharia de Prompt",
+      "Comunicação Assertiva",
+      "Marketing Pessoal"
+    ],
+    "mentorship": {
+      "title": "Mentoria Profissional",
+      "description": "Orientação personalizada para iniciantes de carreira em tecnologia — desde os primeiros passos até a preparação para entrevistas e posicionamento no mercado.",
+      "cta": "Agendar mentoria"
+    },
+    "workshops": {
+      "title": "Palestras & Workshops",
+      "description": "Treinamentos e workshops corporativos sobre IA, agentes inteligentes, engenharia de software, boas práticas e produtividade para equipes de todos os níveis.",
+      "cta": "Solicitar palestra"
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Aberto a oportunidades, colaborações e conversas sobre tecnologia e inteligência artificial.",
+    "email": "italo.bruno-dev@outlook.com",
+    "linkedin": "linkedin.com/in/italo-cabral",
+    "github": "github.com/ItaloCabral"
+  },
+  "footer": {
+    "built": "Desenvolvido com React & TypeScript",
+    "rights": "Todos os direitos reservados."
+  }
+}
