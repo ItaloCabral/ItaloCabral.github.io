@@ -210,6 +210,14 @@
         "cta": "Send email"
       },
       {
+        "id": "whatsapp",
+        "label": "WhatsApp",
+        "description": "Quick and direct messaging — ideal for a first contact or informal conversations.",
+        "value": "+55 (11) 9 1337-7885",
+        "cta": "Send message",
+        "href": "https://wa.me/5511913377885?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20portifolio%20e%20gostaria%20de%20conversar"
+      },
+      {
         "id": "linkedin",
         "label": "LinkedIn",
         "description": "Connect to follow my journey, AI-related content, and professional opportunities.",
@@ -224,6 +232,35 @@
         "cta": "View repositories"
       }
     ]
+  },
+  "inquiry": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "submit": "Send via email",
+    "note": "Submitting opens your email client with a pre-filled message you can review before sending.",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "organization": "Company / Organization",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Your full name",
+      "email": "you@email.com",
+      "organization": "Optional — company or event",
+      "messageMentorship": "Share your goals, career stage, and what you expect from mentorship...",
+      "messageWorkshop": "Describe the event, audience, topic of interest, and preferred dates..."
+    },
+    "mentorship": {
+      "title": "Book mentorship",
+      "description": "Fill in the details below. You'll review the email before sending.",
+      "subject": "Career Mentorship"
+    },
+    "workshop": {
+      "title": "Request a talk or workshop",
+      "description": "Share event details below. You'll review the email before sending.",
+      "subject": "Talk/Workshop Request"
+    }
   },
   "footer": {
     "built": "Built with React & TypeScript",

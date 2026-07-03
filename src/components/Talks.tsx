@@ -1,14 +1,13 @@
+import { useState } from "react";
 import { useLocale } from "../context/LocaleContext";
 import { useInView } from "../hooks/useInView";
-
-const MENTORSHIP_EMAIL =
-  "mailto:italo.bruno-dev@outlook.com?subject=Mentoria%20Profissional";
-const WORKSHOP_EMAIL =
-  "mailto:italo.bruno-dev@outlook.com?subject=Solicita%C3%A7%C3%A3o%20de%20Palestra%2FWorkshop";
+import type { InquiryType } from "../types/locale";
+import InquiryModal from "./InquiryModal";
 
 export default function Talks() {
   const { t } = useLocale();
   const { ref, visible } = useInView();
+  const [inquiryType, setInquiryType] = useState<InquiryType | null>(null);
 
   return (
     <section
@@ -37,20 +36,30 @@ export default function Talks() {
             <div className="cta-card__icon" aria-hidden="true">🎯</div>
             <h3>{t.talks.mentorship.title}</h3>
             <p>{t.talks.mentorship.description}</p>
-            <a className="btn btn--primary" href={MENTORSHIP_EMAIL}>
+            <button
+              type="button"
+              className="btn btn--primary"
+              onClick={() => setInquiryType("mentorship")}
+            >
               {t.talks.mentorship.cta}
-            </a>
+            </button>
           </article>
           <article className="cta-card reveal reveal--delay-2">
             <div className="cta-card__icon" aria-hidden="true">🎤</div>
             <h3>{t.talks.workshops.title}</h3>
             <p>{t.talks.workshops.description}</p>
-            <a className="btn btn--primary" href={WORKSHOP_EMAIL}>
+            <button
+              type="button"
+              className="btn btn--primary"
+              onClick={() => setInquiryType("workshop")}
+            >
               {t.talks.workshops.cta}
-            </a>
+            </button>
           </article>
         </div>
       </div>
+
+      <InquiryModal type={inquiryType} onClose={() => setInquiryType(null)} />
     </section>
   );
 }

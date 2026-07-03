@@ -1,5 +1,13 @@
 export type Locale = "pt" | "en";
 
+export type InquiryType = "mentorship" | "workshop";
+
+export interface InquiryCopy {
+  title: string;
+  description: string;
+  subject: string;
+}
+
 export interface ExperienceItem {
   company: string;
   role: string;
@@ -75,6 +83,27 @@ export interface LocaleStrings {
     channels: ContactChannel[];
   };
   footer: { built: string; rights: string };
+  inquiry: {
+    close: string;
+    cancel: string;
+    submit: string;
+    note: string;
+    fields: {
+      name: string;
+      email: string;
+      organization: string;
+      message: string;
+    };
+    placeholders: {
+      name: string;
+      email: string;
+      organization: string;
+      messageMentorship: string;
+      messageWorkshop: string;
+    };
+    mentorship: InquiryCopy;
+    workshop: InquiryCopy;
+  };
 }
 
 export interface ContactChannel {
@@ -83,6 +112,7 @@ export interface ContactChannel {
   description: string;
   value: string;
   cta: string;
+  href?: string;
 }
 
 export interface TalkTopic {

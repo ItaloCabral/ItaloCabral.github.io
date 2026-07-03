@@ -210,6 +210,14 @@
         "cta": "Enviar email"
       },
       {
+        "id": "whatsapp",
+        "label": "WhatsApp",
+        "description": "Mensagem rápida e direta — ideal para um primeiro contato ou conversas informais.",
+        "value": "+55 (11) 9 1337-7885",
+        "cta": "Enviar mensagem",
+        "href": "https://wa.me/5511913377885?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20portifolio%20e%20gostaria%20de%20conversar"
+      },
+      {
         "id": "linkedin",
         "label": "LinkedIn",
         "description": "Conecte-se para acompanhar minha trajetória, conteúdos sobre IA e oportunidades na rede profissional.",
@@ -224,6 +232,35 @@
         "cta": "Ver repositórios"
       }
     ]
+  },
+  "inquiry": {
+    "close": "Fechar",
+    "cancel": "Cancelar",
+    "submit": "Enviar por e-mail",
+    "note": "Ao enviar, seu cliente de e-mail será aberto com a mensagem pronta para revisão.",
+    "fields": {
+      "name": "Nome",
+      "email": "E-mail",
+      "organization": "Empresa / Instituição",
+      "message": "Mensagem"
+    },
+    "placeholders": {
+      "name": "Seu nome completo",
+      "email": "seu@email.com",
+      "organization": "Opcional — empresa ou evento",
+      "messageMentorship": "Conte seus objetivos, momento de carreira e o que espera da mentoria...",
+      "messageWorkshop": "Descreva o evento, público-alvo, tema de interesse e datas preferenciais..."
+    },
+    "mentorship": {
+      "title": "Agendar mentoria",
+      "description": "Preencha os dados abaixo. Você revisará o e-mail antes de enviar.",
+      "subject": "Mentoria Profissional"
+    },
+    "workshop": {
+      "title": "Solicitar palestra ou workshop",
+      "description": "Informe os detalhes do evento. Você revisará o e-mail antes de enviar.",
+      "subject": "Solicitação de Palestra/Workshop"
+    }
   },
   "footer": {
     "built": "Desenvolvido com React & TypeScript",
