@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="synGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="vaultGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="#0b0f17"/>
+  <!-- Vault container -->
+  <rect x="220" y="70" width="360" height="310" rx="16" fill="url(#vaultGrad)" stroke="#334155" stroke-width="2"/>
+  <path d="M320 70 V55 a80 80 0 0 1 160 0 V70" stroke="#475569" stroke-width="3" fill="none"/>
+  <circle cx="400" cy="120" r="18" fill="#1e293b" stroke="#2563eb" stroke-width="2"/>
+  <rect x="394" y="126" width="12" height="16" rx="2" fill="#2563eb" opacity="0.8"/>
+  <!-- Synapse network inside vault -->
+  <circle cx="280" cy="200" r="10" fill="#2563eb" opacity="0.9"/>
+  <circle cx="400" cy="180" r="12" fill="#3b82f6"/>
+  <circle cx="520" cy="200" r="10" fill="#2563eb" opacity="0.9"/>
+  <circle cx="340" cy="280" r="8" fill="#7c3aed" opacity="0.85"/>
+  <circle cx="460" cy="280" r="8" fill="#7c3aed" opacity="0.85"/>
+  <circle cx="400" cy="330" r="11" fill="#3b82f6"/>
+  <line x1="280" y1="200" x2="400" y2="180" stroke="#3b82f6" stroke-width="2" opacity="0.6"/>
+  <line x1="520" y1="200" x2="400" y2="180" stroke="#3b82f6" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="180" x2="340" y2="280" stroke="#7c3aed" stroke-width="1.5" opacity="0.5"/>
+  <line x1="400" y1="180" x2="460" y2="280" stroke="#7c3aed" stroke-width="1.5" opacity="0.5"/>
+  <line x1="340" y1="280" x2="400" y2="330" stroke="#3b82f6" stroke-width="1.5" opacity="0.5"/>
+  <line x1="460" y1="280" x2="400" y2="330" stroke="#3b82f6" stroke-width="1.5" opacity="0.5"/>
+  <!-- Pulse rings on central synapse -->
+  <circle cx="400" cy="180" r="22" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
+  <circle cx="400" cy="180" r="32" stroke="#3b82f6" stroke-width="1" opacity="0.15"/>
+  <!-- Brand -->
+  <text x="400" y="410" text-anchor="middle" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="26" font-weight="700" letter-spacing="-0.5">SynVault</text>
+  <text x="400" y="432" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="12">Synapse × Vault · Preview</text>
+</svg>
