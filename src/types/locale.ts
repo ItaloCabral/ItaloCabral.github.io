@@ -63,16 +63,29 @@ export interface LocaleStrings {
     title: string;
     subtitle: string;
     topicsTitle: string;
-    topics: string[];
+    topics: TalkTopic[];
     mentorship: { title: string; description: string; cta: string };
     workshops: { title: string; description: string; cta: string };
   };
   contact: {
     title: string;
     subtitle: string;
-    email: string;
-    linkedin: string;
-    github: string;
+    intro: string;
+    availability: string;
+    channels: ContactChannel[];
   };
   footer: { built: string; rights: string };
+}
+
+export interface ContactChannel {
+  id: string;
+  label: string;
+  description: string;
+  value: string;
+  cta: string;
+}
+
+export interface TalkTopic {
+  title: string;
+  description: string;
 }

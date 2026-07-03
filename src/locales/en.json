@@ -160,9 +160,30 @@
     "subtitle": "Sharing knowledge on AI, software engineering, and career growth through talks, mentorship, and workshops.",
     "topicsTitle": "Topics presented",
     "topics": [
-      "Prompt Engineering",
-      "Assertive Communication",
-      "Personal Branding"
+      {
+        "title": "Prompt Engineering",
+        "description": "Learn how to get the best out of your AI tools with clear, structured, results-driven prompts."
+      },
+      {
+        "title": "Assertive Communication",
+        "description": "How to express yourself confidently and directly, with clarity and professionalism in any setting."
+      },
+      {
+        "title": "Personal Branding",
+        "description": "Respect yourself by selling your skills the right way — with an effective resume and a standout LinkedIn profile."
+      },
+      {
+        "title": "AI Agents in Production",
+        "description": "How to design, build, and deploy intelligent agents in production — from RAG pipelines to LangChain orchestration."
+      },
+      {
+        "title": "Architecture & Clean Code",
+        "description": "SOLID principles, clean code, and architectural patterns that sustain critical systems in high-stakes environments."
+      },
+      {
+        "title": "Data Migration at Scale",
+        "description": "Strategies to transform legacy databases into modern structures with integrity, performance, and minimal operational risk."
+      }
     ],
     "mentorship": {
       "title": "Career Mentorship",
@@ -177,10 +198,32 @@
   },
   "contact": {
     "title": "Contact",
-    "subtitle": "Open to opportunities, collaborations, and conversations about technology and artificial intelligence.",
-    "email": "italo.bruno-dev@outlook.com",
-    "linkedin": "linkedin.com/in/italo-cabral",
-    "github": "github.com/ItaloCabral"
+    "subtitle": "Let's talk — I'm open to new opportunities, partnerships, and ideas involving technology and artificial intelligence.",
+    "intro": "Whether it's a job opening, freelance project, mentorship, talk invitation, or simply sharing experiences about software engineering and AI, I'd love to hear from you. Pick your preferred channel below.",
+    "availability": "Typical response time: within 48 business hours.",
+    "channels": [
+      {
+        "id": "email",
+        "label": "Email",
+        "description": "Best channel for professional proposals, talk invitations, mentorship, and more detailed conversations.",
+        "value": "italo.bruno-dev@outlook.com",
+        "cta": "Send email"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "description": "Connect to follow my journey, AI-related content, and professional opportunities.",
+        "value": "linkedin.com/in/italo-cabral",
+        "cta": "View profile"
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "description": "Explore repositories, personal projects, and open-source contributions including AI solutions.",
+        "value": "github.com/ItaloCabral",
+        "cta": "View repositories"
+      }
+    ]
   },
   "footer": {
     "built": "Built with React & TypeScript",

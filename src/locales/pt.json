@@ -160,9 +160,30 @@
     "subtitle": "Compartilho conhecimento sobre IA, engenharia de software e carreira por meio de talks, mentorias e workshops.",
     "topicsTitle": "Temas apresentados",
     "topics": [
-      "Engenharia de Prompt",
-      "Comunicação Assertiva",
-      "Marketing Pessoal"
+      {
+        "title": "Engenharia de Prompt",
+        "description": "Aprenda a extrair o melhor das suas IAs com prompts claros, estruturados e orientados a resultado."
+      },
+      {
+        "title": "Comunicação Assertiva",
+        "description": "Como se expressar de maneira confiante e sem rodeios, mantendo clareza e profissionalismo em qualquer contexto."
+      },
+      {
+        "title": "Marketing Pessoal",
+        "description": "Respeite a si mesmo, vendendo-se corretamente — com um currículo eficiente e um LinkedIn matador."
+      },
+      {
+        "title": "Agentes de IA na Prática",
+        "description": "Como projetar, implementar e colocar agentes inteligentes em produção — do RAG à orquestração com LangChain."
+      },
+      {
+        "title": "Arquitetura & Clean Code",
+        "description": "Princípios SOLID, código limpo e padrões de arquitetura que sustentam sistemas críticos em ambientes de alta exigência."
+      },
+      {
+        "title": "Migração de Dados em Escala",
+        "description": "Estratégias para transformar bases legadas em estruturas modernas com integridade, performance e mínimo risco operacional."
+      }
     ],
     "mentorship": {
       "title": "Mentoria Profissional",
@@ -177,10 +198,32 @@
   },
   "contact": {
     "title": "Contato",
-    "subtitle": "Aberto a oportunidades, colaborações e conversas sobre tecnologia e inteligência artificial.",
-    "email": "italo.bruno-dev@outlook.com",
-    "linkedin": "linkedin.com/in/italo-cabral",
-    "github": "github.com/ItaloCabral"
+    "subtitle": "Vamos conversar — estou aberto a novas oportunidades, parcerias e ideias que envolvam tecnologia e inteligência artificial.",
+    "intro": "Seja para uma vaga, um projeto freelance, mentoria, palestra ou apenas trocar experiências sobre engenharia de software e IA, ficarei feliz em ouvir você. Escolha o canal que preferir abaixo.",
+    "availability": "Tempo de resposta habitual: até 48 horas úteis.",
+    "channels": [
+      {
+        "id": "email",
+        "label": "Email",
+        "description": "Canal ideal para propostas profissionais, convites de palestra, mentorias e conversas mais detalhadas.",
+        "value": "italo.bruno-dev@outlook.com",
+        "cta": "Enviar email"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "description": "Conecte-se para acompanhar minha trajetória, conteúdos sobre IA e oportunidades na rede profissional.",
+        "value": "linkedin.com/in/italo-cabral",
+        "cta": "Ver perfil"
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "description": "Explore repositórios, projetos pessoais e contribuições em código aberto e soluções de IA.",
+        "value": "github.com/ItaloCabral",
+        "cta": "Ver repositórios"
+      }
+    ]
   },
   "footer": {
     "built": "Desenvolvido com React & TypeScript",

@@ -22,30 +22,33 @@ export default function Talks() {
 
         <div className="talks__topics reveal reveal--delay-2">
           <h3>{t.talks.topicsTitle}</h3>
-          <ul className="talks__list">
+          <div className="talks__topics-grid">
             {t.talks.topics.map((topic) => (
-              <li key={topic}>{topic}</li>
+              <article key={topic.title} className="topic-card">
+                <h4>{topic.title}</h4>
+                <p>{topic.description}</p>
+              </article>
             ))}
-          </ul>
+          </div>
         </div>
 
         <div className="talks__cta-grid">
-          <div className="cta-card reveal reveal--delay-1">
+          <article className="cta-card reveal reveal--delay-1">
             <div className="cta-card__icon" aria-hidden="true">🎯</div>
             <h3>{t.talks.mentorship.title}</h3>
             <p>{t.talks.mentorship.description}</p>
             <a className="btn btn--primary" href={MENTORSHIP_EMAIL}>
               {t.talks.mentorship.cta}
             </a>
-          </div>
-          <div className="cta-card reveal reveal--delay-2">
+          </article>
+          <article className="cta-card reveal reveal--delay-2">
             <div className="cta-card__icon" aria-hidden="true">🎤</div>
             <h3>{t.talks.workshops.title}</h3>
             <p>{t.talks.workshops.description}</p>
             <a className="btn btn--primary" href={WORKSHOP_EMAIL}>
               {t.talks.workshops.cta}
             </a>
-          </div>
+          </article>
         </div>
       </div>
     </section>
