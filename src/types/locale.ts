@@ -5,7 +5,6 @@ export type InquiryType = "mentorship" | "workshop";
 export interface InquiryCopy {
   title: string;
   description: string;
-  subject: string;
 }
 
 export interface ExperienceItem {
@@ -87,6 +86,10 @@ export interface LocaleStrings {
     close: string;
     cancel: string;
     submit: string;
+    sending: string;
+    successTitle: string;
+    successDesc: string;
+    error: string;
     note: string;
     fields: {
       name: string;
@@ -100,6 +103,10 @@ export interface LocaleStrings {
       organization: string;
       messageMentorship: string;
       messageWorkshop: string;
+    };
+    subjects: {
+      mentorship: string;
+      workshop: string;
     };
     mentorship: InquiryCopy;
     workshop: InquiryCopy;

@@ -236,8 +236,12 @@
   "inquiry": {
     "close": "Fechar",
     "cancel": "Cancelar",
-    "submit": "Enviar por e-mail",
-    "note": "Ao enviar, seu cliente de e-mail será aberto com a mensagem pronta para revisão.",
+    "submit": "Enviar mensagem",
+    "sending": "Enviando…",
+    "successTitle": "Mensagem enviada!",
+    "successDesc": "Recebi sua solicitação e responderei em breve. Obrigado pelo contato.",
+    "error": "Não foi possível enviar. Tente novamente ou use o e-mail direto na seção de contato.",
+    "note": "Suas informações serão enviadas diretamente para meu e-mail.",
     "fields": {
       "name": "Nome",
       "email": "E-mail",
@@ -251,15 +255,17 @@
       "messageMentorship": "Conte seus objetivos, momento de carreira e o que espera da mentoria...",
       "messageWorkshop": "Descreva o evento, público-alvo, tema de interesse e datas preferenciais..."
     },
+    "subjects": {
+      "mentorship": "{name} solicitou uma mentoria",
+      "workshop": "{actor} solicitou uma palestra"
+    },
     "mentorship": {
       "title": "Agendar mentoria",
-      "description": "Preencha os dados abaixo. Você revisará o e-mail antes de enviar.",
-      "subject": "Mentoria Profissional"
+      "description": "Preencha os dados abaixo e enviarei uma resposta o mais breve possível."
     },
     "workshop": {
       "title": "Solicitar palestra ou workshop",
-      "description": "Informe os detalhes do evento. Você revisará o e-mail antes de enviar.",
-      "subject": "Solicitação de Palestra/Workshop"
+      "description": "Informe os detalhes do evento e retornarei com as próximas etapas."
     }
   },
   "footer": {

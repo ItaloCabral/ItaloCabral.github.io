@@ -236,8 +236,12 @@
   "inquiry": {
     "close": "Close",
     "cancel": "Cancel",
-    "submit": "Send via email",
-    "note": "Submitting opens your email client with a pre-filled message you can review before sending.",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "successTitle": "Message sent!",
+    "successDesc": "I received your request and will get back to you soon. Thank you for reaching out.",
+    "error": "Could not send your message. Please try again or use the email link in the contact section.",
+    "note": "Your details will be sent directly to my inbox.",
     "fields": {
       "name": "Name",
       "email": "Email",
@@ -251,15 +255,17 @@
       "messageMentorship": "Share your goals, career stage, and what you expect from mentorship...",
       "messageWorkshop": "Describe the event, audience, topic of interest, and preferred dates..."
     },
+    "subjects": {
+      "mentorship": "{name} requested mentorship",
+      "workshop": "{actor} requested a talk"
+    },
     "mentorship": {
       "title": "Book mentorship",
-      "description": "Fill in the details below. You'll review the email before sending.",
-      "subject": "Career Mentorship"
+      "description": "Fill in the details below and I'll reply as soon as possible."
     },
     "workshop": {
       "title": "Request a talk or workshop",
-      "description": "Share event details below. You'll review the email before sending.",
-      "subject": "Talk/Workshop Request"
+      "description": "Share the event details and I'll follow up with next steps."
     }
   },
   "footer": {

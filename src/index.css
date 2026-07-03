@@ -1363,6 +1363,55 @@ button {
   gap: 0.65rem;
 }
 
+.modal__honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__feedback {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius-sm);
+}
+
+.modal__feedback--error {
+  color: #b91c1c;
+  background: color-mix(in srgb, #ef4444 12%, var(--bg));
+  border: 1px solid color-mix(in srgb, #ef4444 30%, var(--border));
+}
+
+[data-theme="dark"] .modal__feedback--error {
+  color: #fca5a5;
+}
+
+.modal__status {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.modal__status--success p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.modal__field input:disabled,
+.modal__field textarea:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 @keyframes modal-fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
