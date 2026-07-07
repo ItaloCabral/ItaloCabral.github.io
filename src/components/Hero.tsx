@@ -13,12 +13,18 @@ export default function Hero() {
   return (
     <section id="hero" className="hero section">
       <div className="container hero__grid">
-        <div className="hero__content fade-in">
+        <div className="hero__intro fade-in">
           <p className="hero__greeting">{t.hero.greeting}</p>
           <h1 className="hero__name">{t.hero.name}</h1>
           <p className="hero__role">{t.hero.role}</p>
-          <HeroSummarySnippet />
+        </div>
 
+        <div className="hero__visual fade-in fade-in--delay">
+          <div className="hero__orb" aria-hidden="true" />
+          <HeroSummarySnippet />
+        </div>
+
+        <div className="hero__rest fade-in">
           <ul className="hero__highlights">
             {t.hero.highlights.map((item) => (
               <li key={item}>{item}</li>
@@ -40,20 +46,6 @@ export default function Hero() {
               </svg>
               {t.hero.downloadCv}
             </a>
-          </div>
-        </div>
-
-        <div className="hero__visual fade-in fade-in--delay" aria-hidden="true">
-          <div className="hero__orb" />
-          <div className="hero__card">
-            <div className="hero__card-line hero__card-line--short" />
-            <div className="hero__card-line" />
-            <div className="hero__card-line" />
-            <div className="hero__card-tags">
-              <span>AI</span>
-              <span>TS</span>
-              <span>RAG</span>
-            </div>
           </div>
         </div>
       </div>
