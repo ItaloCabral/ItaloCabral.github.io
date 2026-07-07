@@ -415,12 +415,6 @@ button {
   align-self: end;
 }
 
-.hero__visual {
-  grid-column: 2;
-  grid-row: 1 / -1;
-  align-self: center;
-}
-
 .hero__greeting {
   font-size: 1rem;
   font-weight: 500;
@@ -616,6 +610,9 @@ button {
   align-items: center;
   min-height: 280px;
   width: 100%;
+  grid-column: 2;
+  grid-row: 1 / -1;
+  align-self: center;
 }
 
 .hero__orb {
@@ -1542,13 +1539,21 @@ button {
 @media (max-width: 900px) {
   .hero__grid {
     grid-template-columns: 1fr;
-    gap: 2.5rem;
+    grid-template-rows: auto;
+    gap: 1.75rem;
+  }
+
+  .hero__intro,
+  .hero__visual,
+  .hero__rest {
+    grid-column: 1;
+    grid-row: auto;
   }
 
   .hero__visual {
-    order: -1;
     min-height: auto;
     align-items: stretch;
+    align-self: stretch;
   }
 
   .hero__snippet {
