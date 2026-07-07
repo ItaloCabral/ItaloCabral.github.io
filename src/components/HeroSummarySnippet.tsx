@@ -21,7 +21,7 @@ export default function HeroSummarySnippet() {
           <BashIcon />
         </span>
         <span className="hero__snippet-title">bash</span>
-        <span className="hero__snippet-filename">summary.sh</span>
+        <span className="hero__snippet-filename">cat summary.txt</span>
       </div>
       <div className="hero__snippet-body">
         <span className="hero__snippet-prompt" aria-hidden="true">
