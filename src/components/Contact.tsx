@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { useLocale } from "../context/LocaleContext";
 import { useInView } from "../hooks/useInView";
 import type { ContactChannel } from "../types/locale";
+import SectionHeading from "./SectionHeading";
 
 const ICONS: Record<string, ReactNode> = {
   email: (
@@ -44,8 +45,11 @@ export default function Contact() {
       className={`section section--alt contact ${visible ? "is-visible" : ""}`}
     >
       <div className="container">
-        <h2 className="section__title reveal">{t.contact.title}</h2>
-        <p className="section__subtitle prose reveal reveal--delay-1">{t.contact.subtitle}</p>
+        <SectionHeading
+          number={t.sections.contact}
+          title={t.contact.title}
+          subtitle={t.contact.subtitle}
+        />
 
         <div className="contact__intro reveal reveal--delay-2">
           <p className="prose">{t.contact.intro}</p>

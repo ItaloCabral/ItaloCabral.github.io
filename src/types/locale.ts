@@ -45,6 +45,7 @@ export interface ProjectItem {
 
 export interface LocaleStrings {
   meta: { title: string; description: string };
+  sections: Record<string, string>;
   nav: Record<string, string>;
   share: {
     buttonLabel: string;
@@ -113,7 +114,14 @@ export interface LocaleStrings {
     availability: string;
     channels: ContactChannel[];
   };
-  footer: { built: string; rights: string };
+  footer: {
+    built: string;
+    rights: string;
+    navTitle: string;
+    socialTitle: string;
+    cv: string;
+    contactCta: string;
+  };
   a11y: { backToTop: string };
   inquiry: {
     close: string;

@@ -1,5 +1,6 @@
 import { useLocale } from "../context/LocaleContext";
 import { useInView } from "../hooks/useInView";
+import SectionHeading from "./SectionHeading";
 
 export default function Experience() {
   const { t } = useLocale();
@@ -12,8 +13,11 @@ export default function Experience() {
       className={`section experience ${visible ? "is-visible" : ""}`}
     >
       <div className="container">
-        <h2 className="section__title reveal">{t.experience.title}</h2>
-        <p className="section__subtitle prose reveal reveal--delay-1">{t.experience.subtitle}</p>
+        <SectionHeading
+          number={t.sections.experience}
+          title={t.experience.title}
+          subtitle={t.experience.subtitle}
+        />
 
         <div className="timeline">
           {t.experience.items.map((item, i) => (

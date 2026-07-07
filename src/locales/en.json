@@ -3,6 +3,13 @@
     "title": "Italo Cabral — Full-Stack & AI Analyst",
     "description": "Full-stack Software Engineer with 5+ years of experience. Specialist in AI agents, RAG pipelines, software architecture, and high-performance systems."
   },
+  "sections": {
+    "about": "01",
+    "experience": "02",
+    "projects": "03",
+    "talks": "04",
+    "contact": "05"
+  },
   "nav": {
     "about": "About",
     "experience": "Experience",
@@ -350,6 +357,10 @@
   },
   "footer": {
     "built": "Built with React & TypeScript",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "navTitle": "Navigation",
+    "socialTitle": "Social",
+    "cv": "Resume",
+    "contactCta": "Get in touch"
   }
 }

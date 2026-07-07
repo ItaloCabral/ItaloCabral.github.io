@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
+import { NAV_SECTION_IDS } from "../constants/site";
 import { useLocale } from "../context/LocaleContext";
+import { useScrollHash } from "../hooks/useScrollHash";
 import { useScrollSpy } from "../hooks/useScrollSpy";
 import { useShareHintEligible } from "../hooks/useShareHintEligible";
 import LanguageToggle from "./LanguageToggle";
 import ShareModal from "./ShareModal";
 import ThemeToggle from "./ThemeToggle";
-
-const NAV_IDS = ["about", "experience", "projects", "talks", "contact"] as const;
 
 export default function Header() {
   const { t } = useLocale();
@@ -14,7 +14,9 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [shareOpen, setShareOpen] = useState(false);
   const { showHint, dismissHint } = useShareHintEligible();
-  const activeSection = useScrollSpy(NAV_IDS);
+  const activeSection = useScrollSpy(NAV_SECTION_IDS);
+
+  useScrollHash(activeSection, NAV_SECTION_IDS);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -25,6 +27,11 @@ export default function Header() {
   const scrollTo = (id: string) => {
     setMenuOpen(false);
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    history.replaceState(
+      null,
+      "",
+      `${window.location.pathname}${window.location.search}#${id}`,
+    );
   };
 
   const openShare = () => {
@@ -44,7 +51,7 @@ export default function Header() {
           </button>
 
           <nav className={`nav ${menuOpen ? "nav--open" : ""}`} aria-label="Main">
-            {NAV_IDS.map((id) => (
+            {NAV_SECTION_IDS.map((id) => (
               <button
                 key={id}
                 className={`nav__link${activeSection === id ? " nav__link--active" : ""}`}

@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import pt from "../locales/pt.json";
 import en from "../locales/en.json";
+import { updatePageMeta } from "../lib/updatePageMeta";
 import type { Locale, LocaleStrings } from "../types/locale";
 
 const locales: Record<Locale, LocaleStrings> = {
@@ -30,10 +31,7 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, locale);
-    document.documentElement.lang = locale === "pt" ? "pt-BR" : "en";
-    document.title = locales[locale].meta.title;
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", locales[locale].meta.description);
+    updatePageMeta(locale, locales[locale]);
   }, [locale]);
 
   const setLocale = (l: Locale) => setLocaleState(l);

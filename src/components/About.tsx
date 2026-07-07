@@ -1,5 +1,6 @@
 import { useLocale } from "../context/LocaleContext";
 import { useInView } from "../hooks/useInView";
+import SectionHeading from "./SectionHeading";
 import SkillBars from "./SkillBars";
 
 export default function About() {
@@ -13,7 +14,7 @@ export default function About() {
       className={`section section--alt about ${visible ? "is-visible" : ""}`}
     >
       <div className="container">
-        <h2 className="section__title reveal">{t.about.title}</h2>
+        <SectionHeading number={t.sections.about} title={t.about.title} />
         <div className="about__grid">
           <div className="about__text prose reveal reveal--delay-1">
             {t.about.paragraphs.map((p) => (

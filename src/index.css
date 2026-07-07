@@ -295,6 +295,20 @@ button {
   margin-bottom: 0.75rem;
 }
 
+.section__number {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.section__number-sep {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.section-heading .section__title {
+  margin-bottom: 0.75rem;
+}
+
 .section__subtitle {
   color: var(--text-muted);
   font-size: 1.05rem;
@@ -744,6 +758,11 @@ button {
   box-shadow: 0 2px 12px color-mix(in srgb, var(--accent) 30%, transparent);
 }
 
+.btn--sm {
+  padding: 0.55rem 1rem;
+  font-size: 0.85rem;
+}
+
 .hero__visual {
   position: relative;
   display: flex;
@@ -772,10 +791,9 @@ button {
 
 /* About */
 .about__grid {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 3rem;
-  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
 }
 
 .about__text p {
@@ -795,6 +813,8 @@ button {
   letter-spacing: 0.06em;
   color: var(--text-muted);
   margin-bottom: 1.25rem;
+  padding-top: 0.25rem;
+  border-top: 1px solid var(--border);
 }
 
 .skill-bars {
@@ -2041,8 +2061,79 @@ a.share-option {
 
 /* Footer */
 .footer {
-  padding: 2rem 0;
+  padding: 3rem 0 2rem;
   border-top: 1px solid var(--border);
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) repeat(2, minmax(0, 1fr)) auto;
+  gap: 2rem 2.5rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.footer__logo {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.03em;
+  margin-bottom: 0.5rem;
+}
+
+.footer__built {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  max-width: 22ch;
+  line-height: 1.55;
+}
+
+.footer__label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.footer__nav,
+.footer__social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.footer__link {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  text-align: left;
+  transition: color var(--transition);
+}
+
+.footer__link:hover {
+  color: var(--accent);
+}
+
+.footer__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  align-items: flex-start;
+}
+
+.footer__toggles {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer__bottom {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--text-muted);
 }
 
 .footer__inner {
@@ -2113,14 +2204,6 @@ a.share-option {
 
   .hero__snippet {
     max-width: none;
-  }
-
-  .about__grid {
-    grid-template-columns: 1fr;
-  }
-
-  .about__skills {
-    margin-inline: 0.5rem;
   }
 
   .contact__grid {
@@ -2227,10 +2310,6 @@ a.share-option {
     font-size: 1rem;
   }
 
-  .about__skills {
-    margin-inline: 0.75rem;
-  }
-
   /* Hero — coluna única, ações empilhadas */
   .hero {
     min-height: auto;
@@ -2262,6 +2341,21 @@ a.share-option {
   .timeline__period {
     white-space: nowrap;
     align-self: flex-start;
+  }
+
+  /* Footer — colunas empilhadas */
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .footer__actions {
+    width: 100%;
+  }
+
+  .footer__actions .btn {
+    width: 100%;
+    justify-content: center;
   }
 
   /* Contato — cards empilhados, linhas internas alinhadas */

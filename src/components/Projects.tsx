@@ -3,6 +3,7 @@ import { useLocale } from "../context/LocaleContext";
 import { useInView } from "../hooks/useInView";
 import { useTouchDevice } from "../hooks/useTouchDevice";
 import type { ProjectItem } from "../types/locale";
+import SectionHeading from "./SectionHeading";
 
 type ProjectFilter = "all" | "featured";
 
@@ -199,8 +200,11 @@ export default function Projects() {
       className={`section section--alt projects ${visible ? "is-visible" : ""}`}
     >
       <div className="container">
-        <h2 className="section__title reveal">{t.projects.title}</h2>
-        <p className="section__subtitle prose reveal reveal--delay-1">{t.projects.subtitle}</p>
+        <SectionHeading
+          number={t.sections.projects}
+          title={t.projects.title}
+          subtitle={t.projects.subtitle}
+        />
 
         <div className="projects-filter reveal reveal--delay-1" role="tablist" aria-label={t.projects.title}>
           <button

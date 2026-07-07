@@ -8,11 +8,13 @@ import Talks from "./components/Talks";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
+import StructuredData from "./components/StructuredData";
 
 export default function App() {
   return (
     <>
       <BackgroundDecor />
+      <StructuredData />
       <div className="app-shell">
         <Header />
         <BackToTop />
