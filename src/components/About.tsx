@@ -10,12 +10,12 @@ export default function About() {
     <section
       id="about"
       ref={ref}
-      className={`section about ${visible ? "is-visible" : ""}`}
+      className={`section section--alt about ${visible ? "is-visible" : ""}`}
     >
       <div className="container">
         <h2 className="section__title reveal">{t.about.title}</h2>
         <div className="about__grid">
-          <div className="about__text reveal reveal--delay-1">
+          <div className="about__text prose reveal reveal--delay-1">
             {t.about.paragraphs.map((p) => (
               <p key={p.slice(0, 30)}>{p}</p>
             ))}

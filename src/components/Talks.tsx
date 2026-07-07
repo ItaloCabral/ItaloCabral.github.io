@@ -17,7 +17,7 @@ export default function Talks() {
     >
       <div className="container">
         <h2 className="section__title reveal">{t.talks.title}</h2>
-        <p className="section__subtitle reveal reveal--delay-1">{t.talks.subtitle}</p>
+        <p className="section__subtitle prose reveal reveal--delay-1">{t.talks.subtitle}</p>
 
         <div className="talks__topics reveal reveal--delay-2">
           <h3>{t.talks.topicsTitle}</h3>

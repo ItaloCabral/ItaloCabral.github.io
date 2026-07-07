@@ -41,14 +41,14 @@ export default function Contact() {
     <section
       id="contact"
       ref={ref}
-      className={`section contact ${visible ? "is-visible" : ""}`}
+      className={`section section--alt contact ${visible ? "is-visible" : ""}`}
     >
       <div className="container">
         <h2 className="section__title reveal">{t.contact.title}</h2>
-        <p className="section__subtitle reveal reveal--delay-1">{t.contact.subtitle}</p>
+        <p className="section__subtitle prose reveal reveal--delay-1">{t.contact.subtitle}</p>
 
         <div className="contact__intro reveal reveal--delay-2">
-          <p>{t.contact.intro}</p>
+          <p className="prose">{t.contact.intro}</p>
           <div className="contact__availability">
             <span className="contact__availability-dot" />
             <span className="contact__availability-icon">

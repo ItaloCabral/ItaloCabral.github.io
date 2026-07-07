@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b0f17"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1e293b"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.55"/>
+  <rect x="72" y="72" width="72" height="72" rx="18" fill="url(#accent)"/>
+  <text x="108" y="122" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="700">IC</text>
+  <text x="168" y="118" fill="#f8fafc" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="700" letter-spacing="-1.5">Italo Cabral</text>
+  <text x="168" y="176" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="500">Full-Stack Dev &amp; AI Analyst</text>
+  <g fill="#2563eb" opacity="0.12">
+    <circle cx="980" cy="120" r="180"/>
+    <circle cx="1080" cy="420" r="120"/>
+  </g>
+  <rect x="168" y="220" width="520" height="4" rx="2" fill="url(#accent)"/>
+  <text x="168" y="280" fill="#cbd5e1" font-family="Inter, system-ui, sans-serif" font-size="24">AI Agents · RAG Pipelines · Software Architecture</text>
+  <text x="168" y="330" fill="#64748b" font-family="Inter, system-ui, sans-serif" font-size="22">5+ years building critical systems and intelligent products</text>
+  <rect x="168" y="420" width="220" height="52" rx="999" fill="#1e293b" stroke="#334155"/>
+  <text x="278" y="453" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600">italocabral.github.io</text>
+</svg>

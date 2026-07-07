@@ -13,7 +13,7 @@ export default function Experience() {
     >
       <div className="container">
         <h2 className="section__title reveal">{t.experience.title}</h2>
-        <p className="section__subtitle reveal reveal--delay-1">{t.experience.subtitle}</p>
+        <p className="section__subtitle prose reveal reveal--delay-1">{t.experience.subtitle}</p>
 
         <div className="timeline">
           {t.experience.items.map((item, i) => (
@@ -30,7 +30,7 @@ export default function Experience() {
                   </div>
                   <span className="timeline__period">{item.period}</span>
                 </div>
-                <p className="timeline__desc">{item.description}</p>
+                <p className="timeline__desc prose">{item.description}</p>
                 <p className="timeline__highlights-title">{t.experience.highlightsTitle}</p>
                 <ul className="timeline__highlights">
                   {item.highlights.map((h) => (
