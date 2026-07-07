@@ -10,6 +10,19 @@
     "talks": "Talks",
     "contact": "Contact"
   },
+  "share": {
+    "buttonLabel": "Share portfolio",
+    "title": "Share",
+    "description": "Choose how you'd like to share this page.",
+    "message": "Check out Italo Cabral's portfolio — Full-Stack & AI Analyst:",
+    "linkedin": "Share on LinkedIn",
+    "whatsapp": "Send on WhatsApp",
+    "copyLink": "Copy link",
+    "copied": "Link copied!",
+    "close": "Close",
+    "scrollHint": "Enjoyed the portfolio? Share it with someone!",
+    "dismissHint": "Dismiss hint"
+  },
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Italo Cabral",
@@ -175,12 +188,17 @@
     "featured": "Featured",
     "placeholder": "Coming soon",
     "previewHint": "Hover to play preview",
+    "previewHintTouch": "Tap to play preview",
+    "outcomeLabel": "Outcome",
+    "filterAll": "All",
+    "filterFeatured": "Featured",
     "prev": "Previous project",
     "next": "Next project",
     "items": [
       {
         "name": "SynVault",
         "tagline": "Intelligent synapses. Content in the vault.",
+        "outcome": "Full RAG pipeline with per-agent content isolation and customizable production responses.",
         "description": "AI agent that merges the power of digital synapses — RAG connections linking questions to the right knowledge — with vault-grade security (MinIO), where custom content stays isolated and protected. Efficient, controlled, and highly customizable responses, with a full pipeline of embeddings, vector storage, and agent orchestration.",
         "tech": ["Next.js", "TypeScript", "Python", "MongoDB", "LangChain", "Pydantic", "ChromaDB", "MinIO"],
         "github": "https://github.com/ItaloCabral",
@@ -191,6 +209,7 @@
       },
       {
         "name": "Geno",
+        "outcome": "REST API with cryptographically secure slugs and built-in basic analytics.",
         "description": "Simple and efficient URL shortener with secure slug generation via cryptography, basic analytics, and RESTful API for integration.",
         "tech": ["TypeScript", "MongoDB", "Crypto"],
         "github": "https://github.com/ItaloCabral",
@@ -201,6 +220,7 @@
       },
       {
         "name": "DevPulse",
+        "outcome": "Real-time monitoring with alerts and uptime history — in development.",
         "description": "API and service monitoring dashboard with real-time alerts, uptime history, and metrics visualization — placeholder for your next project.",
         "tech": ["React", "TypeScript", "Node.js", "WebSockets"],
         "github": null,
@@ -324,6 +344,9 @@
       "title": "Request a talk or workshop",
       "description": "Share the event details and I'll follow up with next steps."
     }
+  },
+  "a11y": {
+    "backToTop": "Back to top"
   },
   "footer": {
     "built": "Built with React & TypeScript",

@@ -10,6 +10,19 @@
     "talks": "Palestras",
     "contact": "Contato"
   },
+  "share": {
+    "buttonLabel": "Compartilhar portfólio",
+    "title": "Compartilhar",
+    "description": "Escolha como deseja compartilhar esta página.",
+    "message": "Confira o portfólio de Italo Cabral — Full-Stack & Analista de IA:",
+    "linkedin": "Compartilhar no LinkedIn",
+    "whatsapp": "Enviar no WhatsApp",
+    "copyLink": "Copiar link",
+    "copied": "Link copiado!",
+    "close": "Fechar",
+    "scrollHint": "Gostou do portfólio? Compartilhe com alguém!",
+    "dismissHint": "Fechar dica"
+  },
   "hero": {
     "greeting": "Olá, eu sou",
     "name": "Italo Cabral",
@@ -175,12 +188,17 @@
     "featured": "Destaque",
     "placeholder": "Em breve",
     "previewHint": "Passe o mouse para ver o preview",
+    "previewHintTouch": "Toque para reproduzir o preview",
+    "outcomeLabel": "Resultado",
+    "filterAll": "Todos",
+    "filterFeatured": "Destaques",
     "prev": "Projeto anterior",
     "next": "Próximo projeto",
     "items": [
       {
         "name": "Sinapsis",
         "tagline": "Sinapses inteligentes. Conteúdo em segurança.",
+        "outcome": "Pipeline RAG completo com isolamento de conteúdo por agente e respostas customizáveis em produção.",
         "description": "Agente de IA que une o poder das sinapses digitais — conexões RAG que ligam perguntas ao conhecimento certo — com a segurança de um cofre digital, onde conteúdos personalizados ficam isolados e protegidos, podendo ser compartilhados entre agentes, obtendo respostas eficientes, controladas e altamente customizáveis, com pipeline completo de embeddings, armazenamento vetorial e orquestração de agentes.",
         "tech": ["Next.js", "TypeScript", "Python", "MongoDB", "LangChain", "Pydantic", "ChromaDB", "MinIO"],
         "github": "https://github.com/ItaloCabral",
@@ -191,6 +209,7 @@
       },
       {
         "name": "Geno URL Shortener",
+        "outcome": "API REST com slugs seguros via criptografia e analytics básicos integrados.",
         "description": "Encurtador de URLs simples e eficiente, com geração segura de slugs via criptografia, analytics básicos e API RESTful para integração.",
         "tech": ["TypeScript", "MongoDB", "Crypto"],
         "github": "https://github.com/ItaloCabral",
@@ -201,6 +220,7 @@
       },
       {
         "name": "DevPulse",
+        "outcome": "Monitoramento em tempo real com alertas e histórico de uptime — em desenvolvimento.",
         "description": "Dashboard de monitoramento de APIs e serviços com alertas em tempo real, histórico de uptime e visualização de métricas — placeholder para seu próximo projeto.",
         "tech": ["React", "TypeScript", "Node.js", "WebSockets"],
         "github": null,
@@ -324,6 +344,9 @@
       "title": "Solicitar palestra ou workshop",
       "description": "Informe os detalhes do evento e retornarei com as próximas etapas."
     }
+  },
+  "a11y": {
+    "backToTop": "Voltar ao topo"
   },
   "footer": {
     "built": "Desenvolvido com React & TypeScript",

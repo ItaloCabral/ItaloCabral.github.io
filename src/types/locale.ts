@@ -33,6 +33,7 @@ export interface ProjectItem {
   name: string;
   tagline?: string;
   description: string;
+  outcome?: string;
   tech: string[];
   github: string | null;
   demo: string | null;
@@ -45,6 +46,19 @@ export interface ProjectItem {
 export interface LocaleStrings {
   meta: { title: string; description: string };
   nav: Record<string, string>;
+  share: {
+    buttonLabel: string;
+    title: string;
+    description: string;
+    message: string;
+    linkedin: string;
+    whatsapp: string;
+    copyLink: string;
+    copied: string;
+    close: string;
+    scrollHint: string;
+    dismissHint: string;
+  };
   hero: {
     greeting: string;
     name: string;
@@ -76,6 +90,10 @@ export interface LocaleStrings {
     featured: string;
     placeholder: string;
     previewHint: string;
+    previewHintTouch: string;
+    outcomeLabel: string;
+    filterAll: string;
+    filterFeatured: string;
     prev: string;
     next: string;
     items: ProjectItem[];
@@ -96,6 +114,7 @@ export interface LocaleStrings {
     channels: ContactChannel[];
   };
   footer: { built: string; rights: string };
+  a11y: { backToTop: string };
   inquiry: {
     close: string;
     cancel: string;
