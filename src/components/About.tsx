@@ -1,5 +1,6 @@
 import { useLocale } from "../context/LocaleContext";
 import { useInView } from "../hooks/useInView";
+import SkillBars from "./SkillBars";
 
 export default function About() {
   const { t } = useLocale();
@@ -21,11 +22,11 @@ export default function About() {
           </div>
           <div className="about__skills reveal reveal--delay-2">
             <h3>{t.about.skillsTitle}</h3>
-            <ul className="skill-tags">
-              {t.about.skills.map((skill) => (
-                <li key={skill}>{skill}</li>
-              ))}
-            </ul>
+            <SkillBars
+              categories={t.about.skillCategories}
+              proficiencyLabels={t.about.proficiencyLevels}
+              animate={visible}
+            />
           </div>
         </div>
       </div>

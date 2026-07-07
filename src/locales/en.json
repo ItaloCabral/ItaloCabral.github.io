@@ -30,12 +30,69 @@
       "Throughout my career at large multinational companies, I've built critical systems applying best practices and clean code principles, always focused on delivering results.",
       "My AI experience goes beyond code: I design agent architectures, orchestrate flows with LangChain, apply prompt engineering, and translate business needs into intelligent solutions. I have strong analytical skills, data migration experience, and regularly mentor others with a collaborative, communicative profile."
     ],
-    "skillsTitle": "Skills",
-    "skills": [
-      "TypeScript", "Python", "PHP", "Laravel", "React", "Next.js", "Node.js",
-      "HTML/CSS", "MySQL", "MongoDB", "PostgreSQL", "LangChain", "RAG",
-      "IBM Watson", "AI Agents", "Clean Architecture", "SOLID", "API Design",
-      "Data Migration", "Docker"
+    "skillsTitle": "Skills (5+ years)",
+    "proficiencyLevels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "skillCategories": [
+      {
+        "id": "languages",
+        "label": "Languages",
+        "skills": [
+          { "name": "TypeScript", "proficiency": "advanced" },
+          { "name": "Python", "proficiency": "advanced" },
+          { "name": "PHP", "proficiency": "intermediate" },
+          { "name": "HTML/CSS", "proficiency": "advanced" }
+        ]
+      },
+      {
+        "id": "frameworks",
+        "label": "Frameworks",
+        "skills": [
+          { "name": "React", "proficiency": "advanced" },
+          { "name": "Next.js", "proficiency": "intermediate" },
+          { "name": "Node.js", "proficiency": "advanced" },
+          { "name": "Laravel", "proficiency": "intermediate" }
+        ]
+      },
+      {
+        "id": "databases",
+        "label": "Databases",
+        "skills": [
+          { "name": "PostgreSQL", "proficiency": "advanced" },
+          { "name": "MySQL", "proficiency": "intermediate" },
+          { "name": "MongoDB", "proficiency": "intermediate" }
+        ]
+      },
+      {
+        "id": "ai",
+        "label": "AI & ML",
+        "skills": [
+          { "name": "LangChain", "proficiency": "intermediate" },
+          { "name": "RAG", "proficiency": "advanced" },
+          { "name": "AI Agents", "proficiency": "advanced" },
+          { "name": "IBM Watson", "proficiency": "intermediate" }
+        ]
+      },
+      {
+        "id": "architecture",
+        "label": "Architecture",
+        "skills": [
+          { "name": "Clean Architecture", "proficiency": "advanced" },
+          { "name": "SOLID", "proficiency": "advanced" },
+          { "name": "API Design", "proficiency": "advanced" },
+          { "name": "Data Migration", "proficiency": "advanced" }
+        ]
+      },
+      {
+        "id": "devops",
+        "label": "DevOps",
+        "skills": [
+          { "name": "Docker", "proficiency": "intermediate" }
+        ]
+      }
     ]
   },
   "experience": {

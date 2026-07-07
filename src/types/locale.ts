@@ -7,6 +7,19 @@ export interface InquiryCopy {
   description: string;
 }
 
+export type SkillProficiency = "beginner" | "intermediate" | "advanced";
+
+export interface SkillItem {
+  name: string;
+  proficiency: SkillProficiency;
+}
+
+export interface SkillCategory {
+  id: string;
+  label: string;
+  skills: SkillItem[];
+}
+
 export interface ExperienceItem {
   company: string;
   role: string;
@@ -46,7 +59,8 @@ export interface LocaleStrings {
     title: string;
     paragraphs: string[];
     skillsTitle: string;
-    skills: string[];
+    proficiencyLevels: Record<SkillProficiency, string>;
+    skillCategories: SkillCategory[];
   };
   experience: {
     title: string;

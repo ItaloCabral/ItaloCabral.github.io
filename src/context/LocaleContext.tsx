@@ -3,7 +3,10 @@ import pt from "../locales/pt.json";
 import en from "../locales/en.json";
 import type { Locale, LocaleStrings } from "../types/locale";
 
-const locales: Record<Locale, LocaleStrings> = { pt, en };
+const locales: Record<Locale, LocaleStrings> = {
+  pt: pt as LocaleStrings,
+  en: en as LocaleStrings,
+};
 
 interface LocaleContextValue {
   locale: Locale;
