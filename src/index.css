@@ -6,6 +6,7 @@
 
 :root {
   --font: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", "Fira Code", monospace;
   --radius: 12px;
   --radius-sm: 8px;
   --transition: 0.25s ease;
@@ -102,7 +103,7 @@ body {
   top: -8%;
   right: -6%;
   background: radial-gradient(circle, var(--accent) 0%, transparent 70%);
-  animation: orb-drift-1 30s ease-in-out infinite;
+  animation: orb-drift-1 22s ease-in-out infinite;
 }
 
 .bg-decor__orb--2 {
@@ -111,7 +112,7 @@ body {
   bottom: 10%;
   left: -8%;
   background: radial-gradient(circle, #7c3aed 0%, transparent 70%);
-  animation: orb-drift-2 38s ease-in-out infinite;
+  animation: orb-drift-2 26s ease-in-out infinite;
 }
 
 .bg-decor__orb--3 {
@@ -424,11 +425,85 @@ button {
   margin-bottom: 1.25rem;
 }
 
-.hero__summary {
-  color: var(--text-muted);
+.hero__snippet {
   max-width: 520px;
   margin-bottom: 1.5rem;
-  font-size: 1.05rem;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero__snippet-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0.85rem;
+  background: color-mix(in srgb, var(--text) 4%, var(--bg-alt));
+  border-bottom: 1px solid var(--border);
+}
+
+.hero__snippet-icon {
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+}
+
+.hero__snippet-title {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: lowercase;
+}
+
+.hero__snippet-filename {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  opacity: 0.75;
+}
+
+.hero__snippet-body {
+  padding: 1rem 1.1rem 1.15rem;
+  font-family: var(--font-mono);
+  font-size: clamp(0.78rem, 1.6vw, 0.875rem);
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+.hero__snippet-prompt {
+  color: #22c55e;
+  font-weight: 500;
+  user-select: none;
+}
+
+[data-theme="dark"] .hero__snippet-prompt {
+  color: #4ade80;
+}
+
+.hero__snippet-text {
+  color: var(--text);
+  white-space: pre-wrap;
+}
+
+.hero__snippet-cursor {
+  display: inline-block;
+  margin-left: 1px;
+  color: var(--accent);
+  font-weight: 500;
+  animation: snippet-cursor-blink 1s step-end infinite;
+}
+
+.hero__snippet-cursor--done {
+  opacity: 0.85;
+}
+
+@keyframes snippet-cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
 
 .hero__highlights {

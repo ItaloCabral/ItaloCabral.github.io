@@ -1,4 +1,5 @@
 import { useLocale } from "../context/LocaleContext";
+import HeroSummarySnippet from "./HeroSummarySnippet";
 
 const CV_PATH = "/italo-cabral-cv.pdf";
 
@@ -16,7 +17,7 @@ export default function Hero() {
           <p className="hero__greeting">{t.hero.greeting}</p>
           <h1 className="hero__name">{t.hero.name}</h1>
           <p className="hero__role">{t.hero.role}</p>
-          <p className="hero__summary">{t.hero.summary}</p>
+          <HeroSummarySnippet />
 
           <ul className="hero__highlights">
             {t.hero.highlights.map((item) => (
