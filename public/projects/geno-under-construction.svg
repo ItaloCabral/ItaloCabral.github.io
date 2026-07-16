@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <pattern id="stripes" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <rect width="24" height="24" fill="#1e293b"/>
+      <rect width="12" height="24" fill="#f59e0b" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="#0f172a"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="url(#stripes)" stroke="#334155" stroke-width="2"/>
+  <rect x="280" y="130" width="240" height="190" rx="16" fill="#111827" stroke="#475569" stroke-width="2"/>
+  <g transform="translate(400 185)">
+    <path d="M-28 48 L0 -36 L28 48 Z" fill="#f59e0b" stroke="#fbbf24" stroke-width="2"/>
+    <rect x="-34" y="48" width="68" height="14" rx="4" fill="#64748b"/>
+    <rect x="-8" y="18" width="16" height="22" rx="2" fill="#fef3c7"/>
+  </g>
+  <text x="400" y="268" text-anchor="middle" fill="#f8fafc" font-family="system-ui,sans-serif" font-size="28" font-weight="700">Em construção</text>
+  <text x="400" y="304" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="15">Geno URL Shortener</text>
+</svg>

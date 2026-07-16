@@ -227,8 +227,8 @@
         "tech": ["TypeScript", "MongoDB", "Crypto"],
         "github": "https://github.com/ItaloCabral",
         "demo": null,
-        "poster": "/projects/geno-poster.svg",
-        "gif": "/projects/geno.gif",
+        "poster": "/projects/geno-under-construction.svg",
+        "gif": "/projects/geno-under-construction.svg",
         "featured": false
       },
       {
@@ -238,7 +238,7 @@
         "tech": ["React Native", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Docker"],
         "github": "https://github.com/SouzaGiovanna/orbi-app",
         "demo": null,
-        "poster": "/projects/orbi_main_light.png",
+        "poster": "/projects/orbi_banner.png",
         "gif": "/projects/orbi_banner.png",
         "previews": [
           "/projects/orbi_banner.png"
