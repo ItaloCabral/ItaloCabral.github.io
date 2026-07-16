@@ -203,15 +203,21 @@
     "next": "Próximo projeto",
     "items": [
       {
-        "name": "Sinapsis",
+        "name": "AI Sinapsis",
         "tagline": "Sinapses inteligentes. Conteúdo em segurança.",
         "outcome": "Pipeline RAG completo com isolamento de conteúdo por agente e respostas customizáveis em produção.",
         "description": "Agente de IA que une o poder das sinapses digitais — conexões RAG que ligam perguntas ao conhecimento certo — com a segurança de um cofre digital, onde conteúdos personalizados ficam isolados e protegidos, podendo ser compartilhados entre agentes, obtendo respostas eficientes, controladas e altamente customizáveis, com pipeline completo de embeddings, armazenamento vetorial e orquestração de agentes.",
         "tech": ["Next.js", "TypeScript", "Python", "MongoDB", "LangChain", "Pydantic", "ChromaDB", "MinIO"],
         "github": "https://github.com/ItaloCabral",
         "demo": null,
-        "poster": "/projects/synvault-poster.svg",
-        "gif": "/projects/synvault.gif",
+        "poster": "/projects/synapsys_home_light.png",
+        "gif": "/projects/synapsis_knowledge_light.png",
+        "previews": [
+          "/projects/synapsys_home_light.png",
+          "/projects/synapsis_knowledge_light.png",
+          "/projects/synapsis_docs_light.png",
+          "/projects/analytics_light.png"
+        ],
         "featured": true
       },
       {
@@ -226,16 +232,18 @@
         "featured": false
       },
       {
-        "name": "DevPulse",
-        "outcome": "Monitoramento em tempo real com alertas e histórico de uptime — em desenvolvimento.",
-        "description": "Dashboard de monitoramento de APIs e serviços com alertas em tempo real, histórico de uptime e visualização de métricas — placeholder para seu próximo projeto.",
-        "tech": ["React", "TypeScript", "Node.js", "WebSockets"],
-        "github": null,
+        "name": "Orbi App",
+        "outcome": "Calendário inteligente com agendamentos automáticos e integrações com Google Calendar e e-mail.",
+        "description": "App de calendário inteligente para organizar rotina e compromissos, com agendamentos automáticos, sincronização com Google Calendar e fluxos por e-mail.",
+        "tech": ["React Native", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Docker"],
+        "github": "https://github.com/SouzaGiovanna/orbi-app",
         "demo": null,
-        "poster": "/projects/devpulse-poster.svg",
-        "gif": "/projects/devpulse.gif",
-        "featured": false,
-        "isPlaceholder": true
+        "poster": "/projects/orbi_main_light.png",
+        "gif": "/projects/orbi_banner.png",
+        "previews": [
+          "/projects/orbi_banner.png"
+        ],
+        "featured": true
       }
     ]
   },

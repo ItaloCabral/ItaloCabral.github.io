@@ -1388,6 +1388,43 @@ button {
   opacity: 0;
 }
 
+.project-card__media-dots {
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.35rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.55);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.project-card__media-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(148, 163, 184, 0.55);
+  transition: background var(--transition), transform 0.15s ease;
+}
+
+.project-card__media-dot.active {
+  background: var(--accent);
+  transform: scale(1.2);
+}
+
+.project-card__media-dot:hover:not(.active) {
+  background: #e2e8f0;
+}
+
+.project-card__media--gallery .project-card__media-hint--touch {
+  bottom: 3.25rem;
+  transform: translate(-50%, 0);
+}
+
 .project-card__media--touch:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: -2px;

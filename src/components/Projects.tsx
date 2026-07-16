@@ -1,83 +1,12 @@
-import { useCallback, useEffect, useMemo, useState, type KeyboardEvent } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useLocale } from "../context/LocaleContext";
 import { useInView } from "../hooks/useInView";
 import { useTouchDevice } from "../hooks/useTouchDevice";
 import type { ProjectItem } from "../types/locale";
+import ProjectMedia from "./ProjectMedia";
 import SectionHeading from "./SectionHeading";
 
 type ProjectFilter = "all" | "featured";
-
-function ProjectMedia({
-  project,
-  hoverHint,
-  touchHint,
-  isTouch,
-}: {
-  project: ProjectItem;
-  hoverHint: string;
-  touchHint: string;
-  isTouch: boolean;
-}) {
-  const [playing, setPlaying] = useState(false);
-  const [gifKey, setGifKey] = useState(0);
-
-  const play = () => {
-    setGifKey((k) => k + 1);
-    setPlaying(true);
-  };
-
-  const stop = () => setPlaying(false);
-
-  const togglePlay = () => {
-    if (playing) stop();
-    else play();
-  };
-
-  const handleKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
-    if (event.key === "Enter" || event.key === " ") {
-      event.preventDefault();
-      togglePlay();
-    }
-  };
-
-  return (
-    <div
-      className={`project-card__media${isTouch ? " project-card__media--touch" : ""}`}
-      onMouseEnter={isTouch ? undefined : play}
-      onMouseLeave={isTouch ? undefined : stop}
-      onClick={isTouch ? togglePlay : undefined}
-      onKeyDown={isTouch ? handleKeyDown : undefined}
-      role={isTouch ? "button" : undefined}
-      tabIndex={isTouch ? 0 : undefined}
-      aria-pressed={isTouch ? playing : undefined}
-      aria-label={isTouch ? touchHint : undefined}
-    >
-      <img
-        className="project-card__poster"
-        src={project.poster}
-        alt=""
-        aria-hidden="true"
-        draggable={false}
-      />
-      {playing && (
-        <img
-          key={gifKey}
-          className="project-card__gif"
-          src={project.gif}
-          alt={`${project.name} preview`}
-          draggable={false}
-        />
-      )}
-      {!playing && (
-        <span
-          className={`project-card__media-hint${isTouch ? " project-card__media-hint--touch" : ""}`}
-        >
-          {isTouch ? touchHint : hoverHint}
-        </span>
-      )}
-    </div>
-  );
-}
 
 function ProjectSlide({
   project,

@@ -203,15 +203,21 @@
     "next": "Next project",
     "items": [
       {
-        "name": "SynVault",
+        "name": "AI Sinapsis",
         "tagline": "Intelligent synapses. Content in the vault.",
         "outcome": "Full RAG pipeline with per-agent content isolation and customizable production responses.",
         "description": "AI agent that merges the power of digital synapses — RAG connections linking questions to the right knowledge — with vault-grade security (MinIO), where custom content stays isolated and protected. Efficient, controlled, and highly customizable responses, with a full pipeline of embeddings, vector storage, and agent orchestration.",
         "tech": ["Next.js", "TypeScript", "Python", "MongoDB", "LangChain", "Pydantic", "ChromaDB", "MinIO"],
         "github": "https://github.com/ItaloCabral",
         "demo": null,
-        "poster": "/projects/synvault-poster.svg",
-        "gif": "/projects/synvault.gif",
+        "poster": "/projects/synapsys_home_light.png",
+        "gif": "/projects/synapsis_knowledge_light.png",
+        "previews": [
+          "/projects/synapsys_home_light.png",
+          "/projects/synapsis_knowledge_light.png",
+          "/projects/synapsis_docs_light.png",
+          "/projects/analytics_light.png"
+        ],
         "featured": true
       },
       {
@@ -226,16 +232,18 @@
         "featured": false
       },
       {
-        "name": "DevPulse",
-        "outcome": "Real-time monitoring with alerts and uptime history — in development.",
-        "description": "API and service monitoring dashboard with real-time alerts, uptime history, and metrics visualization — placeholder for your next project.",
-        "tech": ["React", "TypeScript", "Node.js", "WebSockets"],
-        "github": null,
+        "name": "Orbi App",
+        "outcome": "Smart calendar with automatic scheduling and Google Calendar and email integrations.",
+        "description": "Intelligent calendar app to organize routines and appointments, with automatic scheduling, Google Calendar sync, and email-driven workflows.",
+        "tech": ["React Native", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Docker"],
+        "github": "https://github.com/SouzaGiovanna/orbi-app",
         "demo": null,
-        "poster": "/projects/devpulse-poster.svg",
-        "gif": "/projects/devpulse.gif",
-        "featured": false,
-        "isPlaceholder": true
+        "poster": "/projects/orbi_main_light.png",
+        "gif": "/projects/orbi_banner.png",
+        "previews": [
+          "/projects/orbi_banner.png"
+        ],
+        "featured": true
       }
     ]
   },

@@ -39,6 +39,7 @@ export interface ProjectItem {
   demo: string | null;
   poster: string;
   gif: string;
+  previews?: string[];
   featured?: boolean;
   isPlaceholder?: boolean;
 }
