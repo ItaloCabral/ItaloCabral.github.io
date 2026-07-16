@@ -208,7 +208,7 @@
         "outcome": "Pipeline RAG completo com isolamento de conteúdo por agente e respostas customizáveis em produção.",
         "description": "Agente de IA que une o poder das sinapses digitais — conexões RAG que ligam perguntas ao conhecimento certo — com a segurança de um cofre digital, onde conteúdos personalizados ficam isolados e protegidos, podendo ser compartilhados entre agentes, obtendo respostas eficientes, controladas e altamente customizáveis, com pipeline completo de embeddings, armazenamento vetorial e orquestração de agentes.",
         "tech": ["Next.js", "TypeScript", "Python", "MongoDB", "LangChain", "Pydantic", "ChromaDB", "MinIO"],
-        "github": "https://github.com/ItaloCabral",
+        "github": "https://github.com/ItaloCabral/ai-synapsis/",
         "demo": null,
         "poster": "/projects/synapsys_home_light.png",
         "gif": "/projects/synapsis_knowledge_light.png",

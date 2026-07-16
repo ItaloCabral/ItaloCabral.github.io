@@ -208,7 +208,7 @@
         "outcome": "Full RAG pipeline with per-agent content isolation and customizable production responses.",
         "description": "AI agent that merges the power of digital synapses — RAG connections linking questions to the right knowledge — with vault-grade security (MinIO), where custom content stays isolated and protected. Efficient, controlled, and highly customizable responses, with a full pipeline of embeddings, vector storage, and agent orchestration.",
         "tech": ["Next.js", "TypeScript", "Python", "MongoDB", "LangChain", "Pydantic", "ChromaDB", "MinIO"],
-        "github": "https://github.com/ItaloCabral",
+        "github": "https://github.com/ItaloCabral/ai-synapsis/",
         "demo": null,
         "poster": "/projects/synapsys_home_light.png",
         "gif": "/projects/synapsis_knowledge_light.png",
